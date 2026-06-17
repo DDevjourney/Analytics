@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
   const url = document.getElementById('url').value;
   if (!url) return alert("Ingresa una URL válida");
 
-  const apiKey = 'AIzaSyCGdSmP2XJbI_7KdFeRhrA758ET9umTf-k';
+  const apiKey = 'X';
   const apiUrl = `https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=${encodeURIComponent(url)}&key=${apiKey}`;
 
   resultDiv.innerHTML = `<p>Cargando resultados...</p>`;
